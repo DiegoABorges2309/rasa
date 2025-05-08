@@ -1,4 +1,4 @@
-FROM rasa/rasa:3.1
+FROM rasa/rasa:3.6.10
 
 # Copia los archivos del proyecto al contenedor
 COPY . /app
