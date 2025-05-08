@@ -7,6 +7,7 @@ WORKDIR /app
 
 # Instala dependencias si las tienes
 USER root
+RUN apt-get update && apt-get install -y gcc python3-dev
 RUN pip install --no-cache-dir -r requirements.txt
 USER 1001
 
