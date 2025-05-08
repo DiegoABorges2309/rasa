@@ -1,0 +1,17 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJwti8EJgDAMAFfJAE7QVURKCKkEapQ07ad0dwP6u4O7fa4N5mM8MpLLrQnmB1nx4gS/VGnOGm1vbNGIhnqCOM+ujpYHmxShoCKNsK51vIrIJDE=": "utter_preguntar_estar_ausente",
+    "eJyVjVEKgDAMQ6+yA3iCXUVklNFJYVbpuv2M3d2Kgp/iT0ggeZn7mFw/BFuAqLSzd/02gWFD756QqSiydWtBsQ6xRfXOlmtlBQkNhRJFc4lKhDw+wFUVJbx7LJeC8Q3972g5AdKXTYI=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEoBqDO9NK8ksSg+tRhEJgLlgVK1tbEAIHwjGA==": "utter_preguntar_estar_ausente",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEoBqDO9NK8ksSg+tRhEJgLlgVK1BEwtLSlJLYrHpZl4W2IBEgdLUA==": "action_listen",
+    "eJwti8EJwCAMAFfJAJ3AVUoJQUIJaBQT+xF3b6D93cHdufYBqw9+kLJL0wTrA1SqnOCXIuas0U7jEY1oqCeI857qNNClN8M6i5Ptfb3+oSLJ": "utter_preguntar_tipos_multas",
+    "eJyNjVEKgCAQRK+yB+gEXiVikVhC0FXWsR/x7gn1G/U3D+bNrH0s1IvJyX5HyOqo34HVJ3H0QAwVorPbqtjsBJ0IR9M8msIbI5RcObUIX8fHaAPE+MX9/bFdQONKYw==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhODGnNCWxqLY2FgAiGxxa": "utter_saludar",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhODGnNCWxqJaAKaUlJalF8TDFuE2JBQCOKTcW": "action_listen",
+    "eJwti9EJgDAMBVfJAE7QVURCKEECNS1t6k/J7kb0693BvX35Bqt1vpGySdUE6wNUujjBL0WGsUY7B/doREMtQTzPqUYdRy2S5aVY1izkfjzU1yUG": "utter_preguntar_solicitar_licencia",
+    "eJyVjVEKgDAMQ6+yA3iCXUWklFGkMDvpOn/G7m5FvxW/ksBLMvcxhb4rHYDJuEgM/TYguFEMT8hcjcTZVkmdYfFoMXhzbWKoUEvmxJdzJUmM42O6mZHC68LPv+UEoqlRGg==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEoBqDO9NK8ksSg+LzUdSAINykwGaqitjQUAQuQjcA==": "utter_preguntar_negar_revicion",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEoBqDO9NK8ksSg+LzUdSAINykwGaqglYGxpSUlqUTxO3STYEwsA6+xMWA==": "action_listen"
+  }
+}

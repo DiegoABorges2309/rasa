@@ -1,0 +1,153 @@
+version: "3.1"
+
+stories:
+  - story: saludar al entrar
+    steps:
+      - intent: saludar
+      - action: utter_saludar
+
+  - story: preguntar que se necesita para solicitar licencia
+    steps:
+      - intent: preguntar_solicitar_licencia
+      - action: utter_preguntar_solicitar_licencia
+
+  - story: preguntar si se puede negar a la revicion
+    steps:
+      - intent: preguntar_negar_revicion
+      - action: utter_preguntar_negar_revicion
+
+  - story: preguntar que pasa si se esta ausente
+    steps:
+      - intent: preguntar_estar_ausente
+      - action: utter_preguntar_estar_ausente
+
+  - story: como saber si un fiscal esta autorizado
+    steps:
+      - intent: preguntar_verificar_fiscal
+      - action: utter_preguntar_verificar_fiscal
+
+  - story: que tipos de multas me pueden poner
+    steps:
+      - intent: preguntar_tipos_multas
+      - action: utter_preguntar_tipos_multas
+
+  - story: no declarar
+    steps:
+      - intent: preguntar_cerrar_local_noPresentar
+      - action: utter_preguntar_cerrar_local_noPresentar
+
+  - story: como actuar cuando se me da una multa incorrecta
+    steps:
+      - intent: preguntar_actuar_multa_incorrecta
+      - action: utter_preguntar_actuar_multa_incorrecta
+
+  - story: como apelar una sancion
+    steps:
+      - intent: preguntar_apelar_sancion
+      - action: utter_preguntar_apelar_sancion
+
+  - story: como eliminar una sancion
+    steps:
+      - intent: preguntar_posibilidad_eliminacio_sancion
+      - action: utter_preguntar_posibilidad_eliminacio_sancion
+
+# - story: Suspensión temporal de actividad económica
+#   steps:
+#   - intent: suspender_actividad
+#   - action: utter_suspender_actividad
+
+# - story: Notificación de cierre sin licencia
+#   steps:
+#   - intent: cierre_sin_licencia
+#   - action: utter_cierre_sin_licencia
+
+# - story: Sanción por declaración extemporánea
+#   steps:
+#   - intent: preguntar_sancion_extemporanea
+#   - action: utter_sancion_extemporanea
+
+# - story: Emisión de acta de fiscalización
+#   steps:
+#   - intent: preguntar_acta_fiscalizacion
+#   - action: utter_emitir_acta_fiscalizacion
+
+# - story: Negativa de entrega de documentos
+#   steps:
+#   - intent: preguntar_no_presentar_documentos
+#   - action: utter_no_presenta_documentos
+
+# - story: Multa por no exhibir licencia
+#   steps:
+#   - intent: reguntar_multa_no_licencia
+#   - action: utter_multa_no_exhibir_licencia
+
+# - story: Acta de reincidencia
+#   steps:
+#   - intent: preguntar_acta_reincidencia
+#   - action: utter_levantar_acta_reincidencia
+
+# - story: No tiene razón social visible
+#   steps:
+#   - intent: preguntar_sin_razon_social
+#   - action: utter_razon_social_no_visible
+
+# - story: Contribuyente no firma el acta
+#   steps:
+#   - intent: preguntar_negativa_firma
+#   - action: utter_no_firma_acta
+
+# - story: Denuncia por evasión de tributos
+#   steps:
+#   - intent: preguntar_denuncia_evasion
+#   - action: utter_denuncia_evasion
+
+# - story: responder documentos necesarios comercio
+#   steps:
+#     - intent: documentos_necesarios_comercio
+#     - action: utter_documentos_necesarios_comercio
+
+# # - story: responder requisitos licencia
+# #   steps:
+# #     - intent: requisitos_licencia
+# #     - action: utter_requisitos_licencia
+
+# - story: responder contenido acta fiscalizacion
+#   steps:
+#     - intent: contenido_acta_fiscalizacion
+#     - action: utter_contenido_acta_fiscalizacion
+
+# - story: responder documentos para declarar
+#   steps:
+#     - intent: documentos_para_declarar
+#     - action: utter_documentos_para_declarar
+
+# - story: responder rif vencido
+#   steps:
+#     - intent: rif_vencido
+#     - action: utter_rif_vencido
+
+# - story: responder mostrar libros
+#   steps:
+#     - intent: mostrar_libros
+#     - action: utter_mostrar_libros
+
+# - story: responder falta constancia pago
+#   steps:
+#     - intent: falta_constancia_pago
+#     - action: utter_falta_constancia_pago
+
+# - story: responder sanciones sin licencia
+#   steps:
+#     - intent: sanciones_sin_licencia
+#     - action: utter_sanciones_sin_licencia
+
+# - story: responder articulo suspension
+#   steps:
+#     - intent: articulo_suspension
+#     - action: utter_articulo_suspension
+
+# - story: responder multa no declarar
+#   steps:
+#     - intent: multa_no_declarar
+#     - action: utter_multa_no_declarar
+

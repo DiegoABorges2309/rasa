@@ -1,0 +1,58 @@
+{
+  "type": "MaxHistoryTrackerFeaturizer",
+  "state_featurizer": {
+    "action_texts": [],
+    "entity_tag_specs": [],
+    "feature_states": {
+      "intent": {
+        "back": 0,
+        "nlu_fallback": 1,
+        "out_of_scope": 2,
+        "restart": 3,
+        "session_start": 4
+      },
+      "action_name": {
+        "action_listen": 0,
+        "action_restart": 1,
+        "action_session_start": 2,
+        "action_default_fallback": 3,
+        "action_deactivate_loop": 4,
+        "action_revert_fallback_events": 5,
+        "action_default_ask_affirmation": 6,
+        "action_default_ask_rephrase": 7,
+        "action_two_stage_fallback": 8,
+        "action_unlikely_intent": 9,
+        "action_back": 10,
+        "...": 11,
+        "action_extract_slots": 12,
+        "utter_articulo_suspension": 13,
+        "utter_cierre_sin_licencia": 14,
+        "utter_contenido_acta_fiscalizacion": 15,
+        "utter_denuncia_evasion": 16,
+        "utter_documentos_necesarios_comercio": 17,
+        "utter_documentos_para_declarar": 18,
+        "utter_emitir_acta_fiscalizacion": 19,
+        "utter_falta_constancia_pago": 20,
+        "utter_levantar_acta_reincidencia": 21,
+        "utter_mostrar_libros": 22,
+        "utter_multa_no_declarar": 23,
+        "utter_multa_no_exhibir_licencia": 24,
+        "utter_no_firma_acta": 25,
+        "utter_no_presenta_documentos": 26,
+        "utter_razon_social_no_visible": 27,
+        "utter_requisitos_licencia": 28,
+        "utter_rif_vencido": 29,
+        "utter_saludar": 30,
+        "utter_saludar_preguntar": 31,
+        "utter_sancion_extemporanea": 32,
+        "utter_sanciones_sin_licencia": 33,
+        "utter_suspender_actividad": 34
+      },
+      "entities": {},
+      "slots": {},
+      "active_loop": {}
+    }
+  },
+  "remove_duplicates": true,
+  "max_history": 5
+}

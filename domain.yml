@@ -1,0 +1,262 @@
+version: "3.1"
+
+intents: 
+ - saludar
+ - preguntar_solicitar_licencia
+ - preguntar_negar_revicion
+ - preguntar_estar_ausente
+ - preguntar_verificar_fiscal
+ - preguntar_tipos_multas
+ - preguntar_cerrar_local_noPresentar
+ - preguntar_actuar_multa_incorrecta 
+ - preguntar_apelar_sancion
+ - preguntar_posibilidad_eliminacio_sancion
+responses:
+  utter_saludar:
+  - text: "Hola, en que puedo ayudarte, quieres ayuda con algun proceso legal?"
+  - text: "Buenas, en que puedo servirte?"
+  - text: "Que tal? necesitas mi ayuda con algun tema legal?"
+
+  utter_preguntar_solicitar_licencia:
+  - text: |
+      Debes presentar ante *SUMITCA* una solicitud formal acompañada de los documentos establecidos en el *Artículo 23* (para licencias permanentes) o *Artículo 24* 
+      (para licencias transitorias o itinerantes).
+      Los principales recaudos incluyen:
+
+      * RIF vigente.
+      * Acta constitutiva (si aplica).
+      * Contrato de arrendamiento o propiedad del local.
+      * Permiso sanitario.
+      * Conformidad de uso o zonificación.
+      * Cédula del representante legal.
+      * Registro de comercio.
+      * Solvencia municipal.
+
+  utter_preguntar_negar_revicion:
+  - text: |
+      No. Negarte a una fiscalización se considera una obstrucción a la función fiscalizadora, 
+      lo que puede acarrear sanciones. El Código Orgánico Tributario prevé sanciones por impedir 
+      el acceso o negarse a entregar información solicitada (Art. 106 del COT). La ordenanza 
+      también establece que los fiscales tienen potestad para levantar actas de irregularidades 
+      si se impide el acceso.
+
+  utter_preguntar_estar_ausente:
+  - text: |
+      El fiscal puede proceder a levantar un acta dejando constancia de la visita y la ausencia 
+      del contribuyente. Si es reincidente, puede presumirse resistencia a la fiscalización, 
+      y esto puede derivar en sanciones o cierre temporal.
+
+  utter_preguntar_verificar_fiscal:
+  - text: |
+      Los fiscales deben estar debidamente *acreditados* por SUMITCA. El contribuyente tiene 
+      derecho a solicitar:
+      *Credencial con nombre, cédula y número de inspector.
+      *Orden de fiscalización firmada por autoridad competente.
+
+      Negarse a mostrar estos documentos invalida la actuación.
+
+  utter_preguntar_tipos_multas:
+  - text: |
+      Si operas sin licencia o con una vencida, se te puede aplicar:
+      Multa equivalente al 100% del impuesto dejado de pagar(Art. 76)
+      Clausura temporal del establecimiento (Art. 99)
+      cierre definitivo en casos de reincidencia grave.
+
+  utter_preguntar_cerrar_local_noPresentar:
+  - text: |
+      Sí. La declaración extemporánea reiterada o la omisión deliberada 
+      puede derivar en:
+      * Multa.
+      * Clausura temporal del local (Art. 99).
+      * Medidas accesorias como embargo de bienes si hay resistencia a declarar.
+
+
+  utter_preguntar_actuar_multa_incorrecta:
+  - text: |
+      Puedes presentar un recurso de reconsideración ante la misma administración 
+      (SUMITCA), o un recurso jerárquico ante la Alcaldía del Municipio Carirubana, 
+      según lo previsto en el Código Orgánico Tributario (Art. 242 y ss.).
+      También puedes acudir a la jurisdicción contencioso-tributaria.
+  
+  utter_preguntar_apelar_sancion:
+  - text: |
+      El procedimiento es:
+      1. Presentar recurso de reconsideración dentro de los 15 días hábiles siguientes a la notificación
+      2. Si es negado o no se responde en 30 días, puedes interponer recurso jerárquico
+      3. Finalmente, puedes acudir a la vía judicial contencioso-tributaria.
+
+  utter_preguntar_posibilidad_eliminacio_sancion:
+  - text: |
+      Sí. SUMITCA, previa solicitud, puede otorgar *exoneraciones parciales o totales de multas en caso de:
+      Fuerza mayor debidamente comprobada.
+      Situaciones económicas excepcionales.
+      Errores materiales no dolosos.
+      Principio de equidad tributaria.      
+      
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+
+  # - preguntar_sancion_extemporanea
+  # - preguntar_acta_fiscalizacion
+  # - preguntar_no_presentar_documentos
+  # - preguntar_multa_no_licencia
+  # - preguntar_acta_reincidencia
+  # - preguntar_sin_razon_social
+  # - preguntar_negativa_firma
+  # - preguntar_denuncia_evasion
+  # - documentos_necesarios_comercio
+  # - requisitos_licencia
+  # - contenido_acta_fiscalizacion
+  # - contenido_acta_fiscalizacion
+  # - documentos_para_declarar
+  # - rif_vencido
+  # - mostrar_libros
+  # - falta_constancia_pago
+  # - sanciones_sin_licencia
+  # - articulo_suspension
+  # - multa_no_declarar
+  # - pregunta_obligacion_contribuir
+  # - pregunta_declaraciones_tardias
+  # - pregunta_exoneracion_sancion
+
+  # utter_suspender_actividad:
+  #   - text: "Debes presentar una solicitud escrita, estar solvente y declarar hasta la fecha."
+  #   - text: "La suspensión requiere estar al día y solicitarlo formalmente."
+  #   - text: "Presenta por escrito tu solicitud y asegúrate de declarar todo lo adeudado."
+  #   - text: "El proceso implica declarar los tributos y pedir la suspensión con carta."
+  #   - text: "Debes hacer una solicitud, estar solvente y declarar hasta la fecha, según la Ordenanza."
+
+  # utter_cierre_sin_licencia:
+  #   - text: "Se levanta un acta y se deja copia escrita de la orden de clausura."
+  #   - text: "El fiscal redacta un acta y deja una notificación en el local."
+  #   - text: "La administración deja constancia del cierre mediante acta y notificación."
+  #   - text: "Se documenta la infracción y se entrega una notificación formal."
+  #   - text: "Se elabora acta y se entrega una copia en el local como orden de clausura."
+
+  # utter_sancion_extemporanea:
+  #   - text: "Se aplica una multa del 1% por cada mes de retraso hasta un 20%."
+  #   - text: "Declaran fuera de tiempo, se sanciona según el Artículo 88."
+  #   - text: "La multa es proporcional al tiempo de retraso en la declaración."
+  #   - text: "Se formaliza una sanción administrativa por el retardo."
+  #   - text: "Cada mes de retraso suma 1% de multa sobre los ingresos declarados."
+
+  # utter_emitir_acta_fiscalizacion:
+  #   - text: "Debe contener fecha, lugar, datos del contribuyente y hechos verificados."
+  #   - text: "Se registra lo inspeccionado, incluyendo documentos y observaciones."
+  #   - text: "Debe firmarse por el fiscal y el contribuyente o testigos."
+  #   - text: "El acta refleja toda la información recogida durante la fiscalización."
+  #   - text: "Según el Artículo 96, se documentan los hallazgos de la inspección."
+
+  # utter_no_presenta_documentos:
+  #   - text: "Se deja constancia de la negativa en el acta."
+  #   - text: "Puede considerarse como evasión o incumplimiento formal."
+  #   - text: "La negativa se anota y puede implicar sanciones."
+  #   - text: "Se presume incumplimiento si no se muestran documentos."
+  #   - text: "El acta debe reflejar que no hubo entrega de documentos."
+
+  # utter_multa_no_exhibir_licencia:
+  #   - text: "La multa es de 3 veces la unidad tributaria municipal."
+  #   - text: "No tener licencia visible implica una sanción fija."
+  #   - text: "Se aplica una multa según el Artículo 90."
+  #   - text: "Es obligatorio exhibir la licencia, de lo contrario hay multa."
+  #   - text: "La infracción conlleva una sanción monetaria clara."
+
+  # utter_levantar_acta_reincidencia:
+  #   - text: "Se registra una nueva infracción y se referencia el acta anterior."
+  #   - text: "Puede conllevar clausura definitiva por reincidencia."
+  #   - text: "Debe quedar constancia de que ya hubo faltas previas."
+  #   - text: "Se levanta otra acta con observación de reincidencia."
+  #   - text: "Tercera reincidencia implica posible cierre definitivo."
+
+  # utter_razon_social_no_visible:
+  #   - text: "Es obligatorio exhibir la razón social del negocio."
+  #   - text: "No mostrarla implica multa según el Artículo 91."
+  #   - text: "Se sanciona con 3 unidades tributarias municipales."
+  #   - text: "Debe estar visible siempre, o se aplicará sanción."
+  #   - text: "La ausencia del nombre visible constituye una infracción."
+
+  # utter_no_firma_acta:
+  #   - text: "Se deja constancia de la negativa, el acta sigue siendo válida."
+  #   - text: "Puede firmar un testigo si el contribuyente se niega."
+  #   - text: "La validez del acta no depende de la firma del contribuyente."
+  #   - text: "Según la norma, se sigue con el acta aunque no firme."
+  #   - text: "Se recomienda añadir testigos si hay negativa a firmar."
+
+  # utter_denuncia_evasion:
+  #   - text: "Puede iniciarse por denuncia escrita o de oficio."
+  #   - text: "Se abre un expediente administrativo para investigar."
+  #   - text: "La denuncia puede llevar a una fiscalización inmediata."
+  #   - text: "Cualquiera puede presentar la denuncia por evasión."
+  #   - text: "El procedimiento se inicia con un documento formal."
+
+  # utter_documentos_necesarios_comercio:
+  #   - text: "Según el Artículo 91, el comerciante debe tener visibles: licencia, última declaración, constancia de pago y razón social."
+  #   - text: "Todo comerciante debe exhibir su licencia, declaración más reciente, pagos al día y razón social, según Art. 91."
+  #   - text: "Licencia, constancia de pagos, última declaración y razón social deben estar visibles por ley."
+  #   - text: "Artículo 91: esos documentos deben estar en lugar visible dentro del establecimiento."
+  #   - text: "Para evitar sanciones, asegúrate de tener todos los documentos exigidos en vista pública."
+
+  # utter_requisitos_licencia:
+  #   - text: "El Artículo 13 exige: solicitud escrita, RIF, cédula, constancia de zonificación y propiedad o alquiler del local."
+  #   - text: "Para la licencia necesitas RIF, cédula, zonificación, solicitud escrita y documentación del local."
+  #   - text: "Debes presentar varios documentos, entre ellos: RIF, cédula y constancia de zonificación (Art. 13)."
+  #   - text: "La ordenanza establece requisitos como cédula, RIF, zonificación y solicitud escrita."
+  #   - text: "RIF, cédula, zonificación, solicitud escrita y documentos del local: todo está en el Art. 13."
+
+  # utter_contenido_acta_fiscalizacion:
+  #   - text: "Según el Artículo 96, el acta debe incluir fecha, lugar, identificación del contribuyente, hechos y firmas."
+  #   - text: "Un acta debe contener: datos del comercio, hechos verificados, documentos revisados y observaciones."
+  #   - text: "El Art. 96 exige una descripción completa de lo fiscalizado con datos del contribuyente."
+  #   - text: "Debe tener lugar, hora, hechos verificados y debe estar firmada por el fiscal y el contribuyente."
+  #   - text: "En toda acta debe constar lo que se observó, los documentos exhibidos y la identificación del comercio."
+
+  # utter_documentos_para_declarar:
+  #   - text: "Debes presentar: declaración jurada, libros contables, estados financieros y constancia de pagos anteriores (Art. 25)."
+  #   - text: "La ordenanza exige estados financieros, declaración y libros contables para declarar ingresos."
+  #   - text: "Necesitas tener libros contables, constancia de pagos anteriores y la declaración jurada."
+  #   - text: "Artículo 25: debes llevar libros, declaración y pruebas de pagos anteriores."
+  #   - text: "Para declarar, presenta tus estados financieros, libros contables y tu declaración jurada."
+
+  # utter_rif_vencido:
+  #   - text: "Aunque el RIF esté vencido, se recomienda actualizarlo. No impide fiscalización (Art. 13)."
+  #   - text: "No afecta el procedimiento, pero es recomendable renovarlo para trámites ante SUMITCA."
+  #   - text: "Puedes ser fiscalizado igual, pero actualiza el RIF lo antes posible."
+  #   - text: "El RIF vencido no impide sanciones, pero puede dificultar algunos trámites."
+  #   - text: "La fiscalización se puede realizar, pero renovar el RIF es buena práctica."
+
+  # utter_mostrar_libros:
+  #   - text: "Sí, el Artículo 94 exige que se muestren los libros contables si el fiscal lo solicita."
+  #   - text: "Es obligatorio exhibir tus libros contables en una inspección si son requeridos."
+  #   - text: "Debes tener tus libros listos para cualquier fiscalización."
+  #   - text: "No mostrar los libros puede ser considerado una falta, según Art. 94."
+  #   - text: "Sí, es un deber formal mostrar los libros contables si el funcionario los solicita."
+
+  # utter_falta_constancia_pago:
+  #   - text: "Es una infracción no tener la constancia del último pago a la vista, según Art. 91."
+  #   - text: "No mostrar el pago más reciente puede acarrear sanciones."
+  #   - text: "El Art. 91 exige tener la documentación en vista pública, incluido el último pago."
+  #   - text: "Sí, podrías ser sancionado si no tienes la constancia a la mano."
+  #   - text: "La falta de constancia del pago se considera infracción y puede ser sancionada."
+
+  # utter_sanciones_sin_licencia:
+  #   - text: "El Artículo 103 permite clausura inmediata. El Art. 105 impone multa del 100% del tributo estimado."
+  #   - text: "Operar sin licencia puede llevar al cierre del local y multas severas."
+  #   - text: "Hay clausura inmediata y multa del 100% del tributo estimado (Art. 103 y 105)."
+  #   - text: "Podrías ser cerrado y sancionado fuertemente por no tener licencia."
+  #   - text: "El establecimiento puede ser clausurado y multado si no tiene licencia."
+
+  # utter_articulo_suspension:
+  #   - text: "El Artículo 100 regula el procedimiento para suspender temporalmente la actividad económica."
+  #   - text: "Artículo 100: ahí se establece cómo solicitar una suspensión temporal."
+  #   - text: "La norma sobre suspensión temporal está en el Art. 100 de la ordenanza."
+  #   - text: "Para suspender una actividad, consulta el artículo 100."
+  #   - text: "La suspensión está regulada por el artículo 100 de la ordenanza tributaria."
+
+  # utter_multa_no_declarar:
+  #   - text: "El Artículo 87 establece multa del 100% del tributo omitido, más intereses y otras medidas."
+  #   - text: "No declarar genera una multa del 100% del tributo que se dejó de pagar."
+  #   - text: "Además de la multa, podrías enfrentar intereses y sanciones adicionales."
+  #   - text: "El Art. 87 es claro: se sanciona fuertemente la omisión de declaración."
+  #   - text: "Se castiga con multa y medidas accesorias el no declarar ingresos."

@@ -1,0 +1,42 @@
+{
+  "text": {
+    "te": 14,
+    "puedo": 8,
+    "hacer": 3,
+    "una": 16,
+    "pregunta": 7,
+    "me": 4,
+    "podrias": 6,
+    "responder": 11,
+    "algo": 0,
+    "sabes": 12,
+    "sobre": 13,
+    "este": 2,
+    "tema": 15,
+    "para": 5,
+    "que": 9,
+    "respondas": 10,
+    "duda": 1
+  },
+  "intent": {
+    "preguntar_algo": 0
+  },
+  "response": null,
+  "action_name": {
+    "action_listen": 6,
+    "action_restart": 7,
+    "action_session_start": 9,
+    "action_default_fallback": 4,
+    "action_deactivate_loop": 1,
+    "action_revert_fallback_events": 8,
+    "action_default_ask_affirmation": 2,
+    "action_default_ask_rephrase": 3,
+    "action_two_stage_fallback": 10,
+    "action_unlikely_intent": 11,
+    "action_back": 0,
+    "action_extract_slots": 5,
+    "utter_preguntar_algo": 12
+  },
+  "action_text": null,
+  "intent_response_key": null
+}

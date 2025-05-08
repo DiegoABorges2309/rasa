@@ -1,0 +1,84 @@
+version: "3.1"
+
+nlu:
+  - intent: saludar
+    examples: |
+      - buenas
+      - hola
+      - que tal?
+      - epa
+      - ola
+      - saludos
+      - hello
+  
+  - intent: preguntar_solicitar_licencia
+    examples: |
+      - ¿Cómo puedo solicitar mi licencia de actividades económicas en el Municipio Carirubana?
+      - ¿Qué debo hacer para obtener una licencia de actividades económicas en Carirubana?
+      - ¿Cuáles son los requisitos para tramitar una licencia de actividades económicas en el Municipio Carirubana?
+      - ¿A dónde debo acudir y qué documentos necesito para sacar la licencia de actividades económicas en Carirubana?
+      - Estoy interesado en abrir un negocio en Carirubana, ¿cómo consigo la licencia de actividades económicas?
+
+  - intent: preguntar_negar_revicion
+    examples: |
+      - ¿Tengo derecho a negarme a una inspección de un fiscal en mi negocio?
+      - ¿Es legal que me oponga a que un fiscal revise mi local comercial?
+      - ¿Puedo impedir que un fiscal entre a inspeccionar mi negocio?
+      - ¿Qué pasa si no permito que un fiscal revise mi establecimiento?
+      - ¿Estoy obligado a dejar que un fiscal inspeccione mi negocio?
+
+  - intent: preguntar_estar_ausente
+    examples: |
+      - ¿Qué pasa si el fiscal llega y yo no estoy en el negocio?
+      - ¿Qué ocurre si no estoy presente durante una visita del fiscal?
+      - ¿Hay consecuencias si no me encuentro cuando el fiscal viene a inspeccionar?
+      - ¿Es obligatorio que esté presente cuando el fiscal visita mi local?
+      - ¿Puede el fiscal hacer la inspección si no estoy en el lugar?
+
+  - intent: preguntar_verificar_fiscal
+    examples: |
+      - ¿Cómo verifico si el fiscal que viene a mi negocio está autorizado?
+      - ¿De qué manera puedo confirmar que el fiscal tiene permiso para inspeccionar?
+      - ¿Qué debo revisar para saber si un fiscal está debidamente autorizado?
+      - ¿Cómo compruebo que el fiscal que me visita es legítimo?
+      - ¿Qué indicios me confirman que el fiscal que llegó está acreditado?
+
+  - intent: preguntar_tipos_multas
+    examples: |
+      - ¿Cuáles son las sanciones que impone SUMITCA por no tener la licencia vigente?
+      - ¿Qué multas me puede colocar SUMITCA si tengo la licencia vencida?
+      - ¿Qué tipo de penalizaciones aplica SUMITCA por operar sin licencia actualizada?
+      - ¿Qué consecuencias económicas enfrento si no tengo mi licencia al día según SUMITCA?
+      - ¿Qué acciones sancionatorias toma SUMITCA si no cumplo con la licencia requerida?
+
+  - intent: preguntar_cerrar_local_noPresentar 
+    examples: |
+      - ¿Es posible que me clausuren el local por no declarar a tiempo?
+      - ¿Qué pasa si no presento la declaración, pueden cerrar mi negocio?
+      - ¿Me arriesgo a un cierre del local por omitir una declaración?
+      - ¿La falta de declaración puede causar la clausura de mi comercio?
+      - ¿SUMITCA puede cerrar mi establecimiento si no entrego la declaración correspondiente? 
+  
+  - intent: preguntar_actuar_multa_incorrecta 
+    examples: |
+      - ¿Cómo debo actuar si recibo una multa que me parece incorrecta?
+      - ¿Qué opciones tengo si considero que la multa impuesta no es justa?
+      - ¿Puedo apelar una multa con la que no estoy de acuerdo?
+      - ¿Qué pasos seguir si me sancionan injustamente?
+      - ¿Cómo puedo defenderme ante una multa que considero indebida? 
+
+  - intent: preguntar_apelar_sancion
+    examples: |
+      - ¿Qué debo hacer para apelar una sanción de SUMITCA?
+      - ¿Cómo puedo impugnar una sanción que me impuso SUMITCA?
+      - ¿Existe un procedimiento para recurrir una multa de SUMITCA?
+      - ¿Qué pasos debo seguir si quiero apelar una sanción administrativa de SUMITCA?
+      - ¿Puedo presentar un reclamo si no estoy de acuerdo con una sanción de SUMITCA?
+
+  - intent: preguntar_posibilidad_eliminacio_sancion
+    examples: |
+      - ¿Es posible que me exoneren o reduzcan una multa?
+      - ¿Puedo solicitar una rebaja o eliminación de la multa que me impusieron?
+      - ¿SUMITCA ofrece algún mecanismo para reducir o exonerar multas?
+      - ¿Existen condiciones bajo las cuales pueden perdonarme una multa?
+      - ¿Qué debo hacer para pedir una exoneración o descuento en una multa?

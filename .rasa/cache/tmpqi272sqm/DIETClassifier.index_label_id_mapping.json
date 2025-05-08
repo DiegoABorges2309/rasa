@@ -1,0 +1,12 @@
+{
+  "0": "preguntar_actuar_multa_incorrecta",
+  "1": "preguntar_apelar_sancion",
+  "2": "preguntar_cerrar_local_noPresentar",
+  "3": "preguntar_estar_ausente",
+  "4": "preguntar_negar_revicion",
+  "5": "preguntar_posibilidad_eliminacio_sancion",
+  "6": "preguntar_solicitar_licencia",
+  "7": "preguntar_tipos_multas",
+  "8": "preguntar_verificar_fiscal",
+  "9": "saludar"
+}

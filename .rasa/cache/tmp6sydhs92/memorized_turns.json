@@ -1,0 +1,25 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJwti8EJgDAMAFfJAE7QVURKCKkEapQ07ad0dwP6u4O7fa4N5mM8MpLLrQnmB1nx4gS/VGnOGm1vbNGIhnqCOM+ujpYHmxShoCKNsK51vIrIJDE=": "utter_preguntar_verificar_fiscal",
+    "eJyVjc0JgDAMRlfJAE7QVURCKakENEqa9lK6uwE9K97eg+9n7mOCfio1jMn4kAD9BpS4U4BHNi5G4tlaSD3D4moBvLlWsajYSDlzcspcUtzGx3A1I8WX/q+v5QK5WE6b": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhODGnNCWxqLY2FgAiGxxa": "utter_saludar",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhODGnNCWxqJaAKaUlJalF8TDFuE2JBQCOKTcW": "action_listen",
+    "eJwti9EJgDAMBVfJAE7QVURKKEECbSpp4k/p7kb0672Du32uDealdGcsxl0SzO9kwUYJfqg8jCRcH6ThsARagihPF0N9c49pXg0zS+mqVAzXOh6UTycw": "utter_preguntar_actuar_multa_incorrecta",
+    "eJydjVEKgDAMQ6+yA3iCXUVklFGksFXpWn/G7m5F/wd+JYGXZO1jCf0UvBJkpYNj6K9JDBVj+EKhpsjOWkNxhtijxuDN3VhBnrq5VCsKiTgfIpgVxmTfVFHSfObP83YDtvRXmA==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEoBqDO9NK8ksSg+sSA1B0gVJ+YlAzXU1sYCAEJgI2Q=": "utter_preguntar_apelar_sancion",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEoBqDO9NK8ksSg+sSA1B0gVJ+YlAzXUEjC2tKQktSgep24S7IkFAOOITDQ=": "action_listen",
+    "eJwti8EJwCAMAFfJAJ3AVUoJQUIJaBQT+xF3b6D93cHdufYBqw9+kLJL0wTrA1SqnOCXIuas0U7jEY1oqCeI857qNNClN8M6i5Ptfb3+oSLJ": "utter_preguntar_tipos_multas",
+    "eJyNjVEKgCAQRK+yB+gEXiVikVhC0FXWsR/x7gn1G/U3D+bNrH0s1IvJyX5HyOqo34HVJ3H0QAwVorPbqtjsBJ0IR9M8msIbI5RcObUIX8fHaAPE+MX9/bFdQONKYw==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEoBqDO9NK8ksSg+LzUdSAINykwGaqitjQUAQuQjcA==": "utter_preguntar_negar_revicion",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEoBqDO9NK8ksSg+LzUdSAINykwGaqglYGxpSUlqUTxO3STYEwsA6+xMWA==": "action_listen",
+    "eJwti9sJwCAQBFuxgFRgKyEcFz3CgjnFR37E3nOQfO0MzO5zbW6WKg9x6Mjq3fyAlG/x7peE1kWtHU2qNVDT7p09r6GdK5XccCIhciRJuKEckKmx2uhaxwuuryns": "utter_preguntar_posibilidad_eliminacio_sancion",
+    "eJylTlsKwzAMu0oO0BPkKqMYrzVDkDghcfYTcvcZtv8W9iUJ9HrMtYVZm7yJD0PRGOaXkHKWGH4ioZuoe0eX5h6oS4vBk6+hxo1q6Xgi4eSTJCFD+UChzuqg62JmmIl33G3748f+ATI6X8w=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEoBqDO9NK8ksSg+tRhEJgLlgVK1tbEAIHwjGA==": "utter_preguntar_estar_ausente",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEoBqDO9NK8ksSg+tRhEJgLlgVK1BEwtLSlJLYrHpZl4W2IBEgdLUA==": "action_listen",
+    "eJwti0EKgDAMBL+SB/iCvsK7SAglSKEmkqZeSv9uRE+7w85uYy4wLuMbKXtRSTC+gkInJ/ihluYs4fbGFk6RQE8Qz6OLk2Fms4iqmSqKrsaN32HO/QG5iSd+": "utter_preguntar_cerrar_local_noPresentar",
+    "eJydTUkKgDAM/Eoe4Av6Cu8iIZQghZpKmnop/t2I3hVPM8NsUz8G6JvyjhQtFQnQb4JCKwd4RE7VWDzbKqtnkri0AN5cmhgpRlZ1yCVSRimjcuXLOF4Omhkrftj59T2fqRZYgg==": "action_listen",
+    "eJwti9EJgDAMBVfJAE7QVURCKEECNS1t6k/J7kb0693BvX35Bqt1vpGySdUE6wNUujjBL0WGsUY7B/doREMtQTzPqUYdRy2S5aVY1izkfjzU1yUG": "utter_preguntar_solicitar_licencia",
+    "eJyVjVEKgDAMQ6+yA3iCXUWklFGkMDvpOn/G7m5FvxW/ksBLMvcxhb4rHYDJuEgM/TYguFEMT8hcjcTZVkmdYfFoMXhzbWKoUEvmxJdzJUmM42O6mZHC68LPv+UEoqlRGg==": "action_listen"
+  }
+}

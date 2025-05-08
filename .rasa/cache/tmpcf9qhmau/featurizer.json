@@ -1,0 +1,56 @@
+{
+  "type": "IntentMaxHistoryTrackerFeaturizer",
+  "state_featurizer": {
+    "action_texts": [],
+    "entity_tag_specs": [],
+    "feature_states": {
+      "intent": {
+        "back": 0,
+        "nlu_fallback": 1,
+        "out_of_scope": 2,
+        "preguntar_actuar_multa_incorrecta": 3,
+        "preguntar_apelar_sancion": 4,
+        "preguntar_cerrar_local_noPresentar": 5,
+        "preguntar_estar_ausente": 6,
+        "preguntar_negar_revicion": 7,
+        "preguntar_posibilidad_eliminacio_sancion": 8,
+        "preguntar_solicitar_licencia": 9,
+        "preguntar_tipos_multas": 10,
+        "preguntar_verificar_fiscal": 11,
+        "restart": 12,
+        "saludar": 13,
+        "session_start": 14
+      },
+      "action_name": {
+        "action_listen": 0,
+        "action_restart": 1,
+        "action_session_start": 2,
+        "action_default_fallback": 3,
+        "action_deactivate_loop": 4,
+        "action_revert_fallback_events": 5,
+        "action_default_ask_affirmation": 6,
+        "action_default_ask_rephrase": 7,
+        "action_two_stage_fallback": 8,
+        "action_unlikely_intent": 9,
+        "action_back": 10,
+        "...": 11,
+        "action_extract_slots": 12,
+        "utter_preguntar_actuar_multa_incorrecta": 13,
+        "utter_preguntar_apelar_sancion": 14,
+        "utter_preguntar_cerrar_local_noPresentar": 15,
+        "utter_preguntar_estar_ausente": 16,
+        "utter_preguntar_negar_revicion": 17,
+        "utter_preguntar_posibilidad_eliminacio_sancion": 18,
+        "utter_preguntar_solicitar_licencia": 19,
+        "utter_preguntar_tipos_multas": 20,
+        "utter_preguntar_verificar_fiscal": 21,
+        "utter_saludar": 22
+      },
+      "entities": {},
+      "slots": {},
+      "active_loop": {}
+    }
+  },
+  "remove_duplicates": true,
+  "max_history": 5
+}
